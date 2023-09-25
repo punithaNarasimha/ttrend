@@ -53,7 +53,7 @@ environment {
         }
     }
 
-      /*   stage("Jar Publish") {
+        stage("Jar Publish") {
         steps {
             script {
                     echo '<--------------- Jar Publish Started --------------->'
@@ -78,7 +78,7 @@ environment {
             }
         }   
     }
-    stage(" Docker Build ") {
+     /* stage(" Docker Build ") {
       steps {
         script {
            echo '<--------------- Docker Build Started --------------->'
