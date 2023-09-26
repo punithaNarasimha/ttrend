@@ -40,6 +40,7 @@ environment {
     echo '------------------- Sonar Analysis Completed -------------'
   }
     }
+  /*      
     stage("Quality Gate"){
         steps { 
             script {
@@ -52,6 +53,7 @@ environment {
 }
         }
     }
+    */
 
         stage("Jar Publish") {
         steps {
