@@ -98,7 +98,7 @@ environment {
             }
         }
     } 
-    /*    
+      
     stage (" deployment "){
         steps {
             script {
@@ -106,7 +106,7 @@ environment {
             }
         }
     }
-*/
+
 }
 }
 
